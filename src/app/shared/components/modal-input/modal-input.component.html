@@ -1,0 +1,10 @@
+<mat-dialog-content>
+  <p>Qual seu filme favorito?</p>
+  <mat-form-field>
+    <mat-label>Nome do filme</mat-label>
+    <input matInput [(ngModel)]="data.filme" />
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data.filme">Ok</button>
+</mat-dialog-actions>
